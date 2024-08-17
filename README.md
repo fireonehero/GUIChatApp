@@ -16,7 +16,8 @@ Before you begin, ensure you have met the following requirements:
   -`PyQt5`
 
 You can install PyQt5 using pip:
-## Installation1. Clone the repository:
+## Installation
+1. Clone the repository:
 
     ```
     git clone https://github.com/your-username/chat-app-gui.git
