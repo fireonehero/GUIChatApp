@@ -16,20 +16,26 @@ Before you begin, ensure you have met the following requirements:
   -`PyQt5`
 
 You can install PyQt5 using pip:
-
 ## Installation1. Clone the repository:
 
     ```
     git clone https://github.com/your-username/chat-app-gui.git
     cd chat-app-gui
     ```
-2. Run the server:
+2. Modify the client:
+
+    Before running the client, ensure that you modify the code to include the correct public IP address of the server you want to connect to. Open `client.py` and locate the line where the server IP is defined. Replace it with the server's public IP address.
+    ```python
+    # Example: Modify this line in client.py
+    server_ip = 'your.server.ip.address'
+    ```
+3. Run the server:
 
     The server code is included in this repository. You can start the server by running the following command:
     ```
     python server.py
     ```
-3. Run the client:
+4. Run the client:
 
     After starting the server, you can run the chat client:
     ```
@@ -51,3 +57,8 @@ You can install PyQt5 using pip:
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Acknowledgments- [PyQt5 Documentation](https://www.riverbankcomputing.com/static/Docs/PyQt5/)
+- [Python Socket Programming](https://docs.python.org/3/howto/sockets.html)
+- [Python Threading](https://docs.python.org/3/library/threading.html)
+
